@@ -1,5 +1,10 @@
 body{
+
     background-color: hsl(212, 45%, 89%);
+}
+.card{
+    display: flex;
+    justify-content: center;
 }
 .card-container{
     display: flex;
@@ -7,22 +12,24 @@ body{
     align-items: center;
     max-width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Sombra */
-    border-radius: 10px; /* Bordes redondeados */
+    border-radius: 15px; /* Bordes redondeados */
     padding: 10px; /* Espaciado interno */
     background-color:hsl(0, 0%, 100%); /* Color de fondo */
+    margin: 50px;
 }
 .card-container-img{
     width: 250px;
     height: auto;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .card-container-title{ 
     font-family: "Outfit", sans-serif;
     text-align: center;
     color: hsl(218, 44%, 22%);
-    width:250px;
+    width: auto;
     font-size: 20px;
     margin: 10px 0;
+    padding-top: 10px;
 }
 .card-container-text{
     font-family: "Outfit", sans-serif;
@@ -30,6 +37,5 @@ body{
     text-align: center;
     color: hsl(220, 15%, 55%);
     width: 200px;
-    margin: 10px 0;
 
 }
